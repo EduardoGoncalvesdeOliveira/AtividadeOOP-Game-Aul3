@@ -8,7 +8,6 @@ public class Game {
         /** instanciR O REGISTRO*/
         Register register = new Register();
 
-
         Register BothRegister = new Register();
         Register EnemRegister = new Register();
         Register PlayerRegister = new Register();
