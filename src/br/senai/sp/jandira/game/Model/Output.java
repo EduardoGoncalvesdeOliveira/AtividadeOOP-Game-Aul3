@@ -8,9 +8,9 @@ public class Output {
 
     public void Print(Player printerPlayer) {
         System.out.println("------------------------------------------");
-        System.out.println("O nome do player é: " + printerPlayer.name);
-        System.out.println("A skin do player é: " + printerPlayer.skin);
-        System.out.println("A life do enemy é: " + printerPlayer.GetLife());
+        System.out.println("O nome do player é:  " + printerPlayer.name);
+        System.out.println("A skin do player é:  " + printerPlayer.skin);
+        System.out.println("A life do enemy é:  " + printerPlayer.GetLife());
 
     }
 

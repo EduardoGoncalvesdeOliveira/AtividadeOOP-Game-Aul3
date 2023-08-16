@@ -5,7 +5,7 @@ import br.senai.sp.jandira.game.Model.Register;
 public class Game {
     public static void main(String[] args) {
 
-        /** instanciR O REGISTRO*/
+        /** instanciar O REGISTRO*/
         Register register = new Register();
 
         Register BothRegister = new Register();

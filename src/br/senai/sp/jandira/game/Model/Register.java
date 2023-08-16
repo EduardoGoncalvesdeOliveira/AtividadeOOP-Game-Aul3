@@ -35,7 +35,7 @@ public class Register {
         };
 
         public void EnemyRegister(){
-            System.out.println("******************************************");
+            System.out.println("*****************************************");
             System.out.println("*********    Cadastro Enemy   ***********");
             System.out.println("******************************************");
             System.out.println("Qual é o nome do Enemy: ");
