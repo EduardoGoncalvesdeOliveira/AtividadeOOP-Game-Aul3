@@ -16,38 +16,41 @@ public class Register {
 
         Scanner teclado = new Scanner(System.in);
 
-        public void PlayerRegister(){
+        public Player PlayerRegister(){
 
             System.out.println("******************************************");
             System.out.println("*********    Cadastro Player   ***********");
             System.out.println("******************************************");
             System.out.println(" ");
             System.out.println("Qual é seu nome: ");
-            player.name = teclado.nextLine();
+            player.name = teclado.next();
             System.out.println("Selecione sua skin (red, blue green) : ");
-            player.skin = teclado.nextLine();
+            player.skin = teclado.next();
             System.out.println("Player cadastrado com sucesso!!");
             System.out.println("******************************************");
 
             if (avaliaAmbos != 1) {
                 output.Print(player);
             }
+
+            return player;
         };
 
-        public void EnemyRegister(){
+        public Enemy EnemyRegister(){
             System.out.println("*****************************************");
             System.out.println("*********    Cadastro Enemy   ***********");
             System.out.println("******************************************");
             System.out.println("Qual é o nome do Enemy: ");
-            enemy.name = teclado.nextLine();
+            enemy.name = teclado.next();
             System.out.println("Selecione a skin do Enemy (red, blue green) : ");
-            enemy.skin = teclado.nextLine();
+            enemy.skin = teclado.next();
             System.out.println("Enemy cadastrado com sucesso!!");
             System.out.println("******************************************");
 
             if (avaliaAmbos != 1) {
                 output.Print(enemy);
             }
+            return enemy;
         };
 
         public void BothRegister() {
